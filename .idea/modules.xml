@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/carsearch.api/carsearch.api.iml" filepath="$PROJECT_DIR$/carsearch.api/carsearch.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carsearch.app/carsearch.app.iml" filepath="$PROJECT_DIR$/carsearch.app/carsearch.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carsearch.appservice/carsearch.appservice.iml" filepath="$PROJECT_DIR$/carsearch.appservice/carsearch.appservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carsearch.dataaccess/carsearch.dataaccess.iml" filepath="$PROJECT_DIR$/carsearch.dataaccess/carsearch.dataaccess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carsearch.dataaccess.dummy/carsearch.dataaccess.dummy.iml" filepath="$PROJECT_DIR$/carsearch.dataaccess.dummy/carsearch.dataaccess.dummy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carsearch.dataaccess.test/carsearch.dataaccess.test.iml" filepath="$PROJECT_DIR$/carsearch.dataaccess.test/carsearch.dataaccess.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carsearch.domain/carsearch.domain.iml" filepath="$PROJECT_DIR$/carsearch.domain/carsearch.domain.iml" />
+    </modules>
+  </component>
+</project>

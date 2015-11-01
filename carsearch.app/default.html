@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<script src="app/AppUtils.js"></script>
+        <script src="app/AppConfig.js"></script>
+		<script src="components/SearchBox.js"></script>
+		<script src="components/SearchBoxChangeEventArgs.js"></script>
+        <script src="components/SearchBoxInteractionProvider.js"></script>
+		<script src="components/SearchGrid.js"></script>
+        <script src="components/SearchPage.js"></script>
+        <script src="components/SearchPageOptions.js"></script>
+		<script src="contexts/SearchContext.js"></script>
+		<script src="controllers/AppController.js"></script>
+		<script src="controllers/SearchController.js"></script>
+        <script src="utils/HttpResourceInvoker.js"></script>
+		<script>
+			document.addEventListener('DOMContentLoaded', function (event) {
+				var appControllerElement = document
+					.querySelector(":scope > main:only-of-type");
+
+				var appController = new carSearch.AppController(appControllerElement);
+
+                //---
+				appController.initialize();
+			});
+		</script>
+	</head>
+	<body>
+		<main></main>
+	</body>
+</html>
